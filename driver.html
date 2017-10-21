@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--anything like this is an element-->
+	<title>Start Page</title>
+	<!--gets a reference to the cascading style sheet attached-->
+	<link rel="stylesheet" href="driver.css">
+</head>
+<body>
+	<script src="logic.js"></script>
+	<div id="main">
+			<img src="moe6.png" height=200 style="position: relative;top:18px;">
+			<img src="moe4.gif" height=200 style="position: relative;top:18px;">
+			<img src="moe5.png" height=200 style="position: relative;top:18px;">
+			<img src="moe4.gif" height=200 style="position: relative;top:18px;">
+			<img src="moe7.png" height=200 style="position: relative;top:18px;">	
+	</div>
+	<div>
+		<nav id="navigationMenu">
+				<!--Use button instead?-->
+				<button><a href="https://buffcat.itch.io/">Itch.io</a></button>
+				<button><a href="https://github.com/mcetting">GitHub</a></button>
+				<button><a href="https://login.ucsc.edu">Canvas</a></button>
+				<button><a href="http://boards.4chan.org/co/">Comics/Cartoons</a></button>
+				<button><a href="https://classes.soe.ucsc.edu/cmps160/Fall17/">ComputerGraphics</a></button>
+
+		</nav>
+	</div>
+	<p align= "center">
+		<iframe style="float:center;" width="500" height="50" src="https://www.youtube.com/embed/CaksNlNniis"></iframe>
+	</p>
+	<div id="content">
+		<div id="sidePanel">
+			<div id="sideHeaderDiv"><header>Links</header></div>
+			<ul>
+				<li><a href="http://www.novelupdates.com/">Novel Updates</a></li>
+				<li><a href="http://www.youtube.com/">YouTube</a></li>
+				<li><a href="http://www.crunchyroll.com/">Anime</a></li>
+				<li><a href="http://www.kissmanga.com/">Manga</a></li>
+			</ul>
+		</div>
+		<div id="mainContent">
+			<!--articles?-->
+			<div id="comment">
+				<header id="contentHeader">Announcements</header>
+				<button id = "deleteButton" style="border: 0px; float: right;color: white;">Delete</button>
+				<p id = "commentArt">This is an article</p>
+				<textarea id = "commentInput" style="float: left;" id="articleInput"></textarea>
+				<button id = "commentButton" style="border: 0px; float: right;font-family: verdana;color: white;">Post</button>
+
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>
+<!--html link (<a href="url">link text</a>)-->
